@@ -1,0 +1,107 @@
+﻿DIPLOMATIC_PLAYS = {
+
+	#Chinese Civil War
+	c:PRC = {
+		create_diplomatic_play = {
+			name = chinese_civil_war
+			type = dp_revolution
+			target_country = c:ROC
+			
+			war = yes
+			
+			add_war_goal = {
+				holder = c:ROC
+				type = annex_country
+				target_country = c:PRC
+			}
+		}
+	}
+	
+	#Indonesian War of Independence
+	c:NET = {
+		create_diplomatic_play = {
+			name = indonesian_war
+			type = dp_annex_war_historical
+			target_country = c:IDO
+		
+			war = yes
+		
+		}
+	}
+	
+	#First Indochina War
+	c:SVM = {
+		create_diplomatic_play = {
+			name = indochina_war
+			type = dp_annex_war_historical
+			target_country = c:NVM
+		
+			war = yes
+			
+		}
+	}
+	
+	#Ili Rebellion
+	c:ROC = {
+		create_diplomatic_play = {
+			name = east_turkestan_war
+			type = dp_annex_war_historical
+			target_country = c:ETS
+		
+			war = yes
+			
+		}
+	}
+	c:PRC = {
+		create_diplomatic_play = {
+			name = east_turkestan_war
+			type = dp_annex_war_historical
+			target_country = c:ETS
+		
+			war = yes
+			
+		}
+	}
+	
+	#Azerbaijan Crisis
+	c:PER = {
+		create_diplomatic_play = {
+			name = azberbaijan_war
+			type = dp_annex_war_historical
+			target_country = c:AZB
+		
+			war = yes
+			
+		}
+	}
+	
+	#Mahabad Crisis
+	c:PER = {
+		create_diplomatic_play = {
+			name = mahabad_war
+			type = dp_annex_war_historical
+			target_country = c:KUR
+		
+			war = yes
+			
+		}
+	}
+	
+	#Greek Civil War
+	c:GRE = {
+		create_diplomatic_play = {
+			name = greek_civil_war
+			type = dp_revolution
+			target_country = c:UGR
+			
+			war = yes
+			
+			add_war_goal = {
+				holder = c:UGR
+				type = annex_country
+				target_country = c:GRE
+			}
+		}
+	}
+	
+}

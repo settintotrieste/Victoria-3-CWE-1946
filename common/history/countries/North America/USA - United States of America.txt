@@ -1,0 +1,85 @@
+﻿COUNTRIES = {
+	c:USA = {
+		set_next_election_date = 1952.11.4
+		
+		ig:ig_industrialists = { add_ruling_interest_group = yes }
+		ig:ig_petty_bourgeoisie = { add_ruling_interest_group = yes }
+		
+		ig:ig_trade_unions = { set_ig_suppression = yes }
+
+		set_tax_level = low
+		
+		effect_starting_technology_tier_2_5_tech = yes
+		effect_starting_technology_nuclear_tech = yes
+		
+		set_market_capital = STATE_NEW_YORK
+		
+		# Laws
+		effect_starting_politics_presidential_republic = yes
+		effect_starting_politics_democratic = yes
+		effect_starting_politics_constitutional_federal_state = yes
+		effect_starting_politics_war_policy_pro_military = yes
+		effect_starting_politics_economic_policy_interventionism = yes
+		effect_starting_politics_trade_policy_free_trade = yes
+		effect_starting_politics_pro_nuclear_policy = yes
+		
+		effect_starting_politics_specialisation_manufacturing = yes
+		
+		effect_starting_politics_gold_system = yes
+		
+		activate_law = law_type:law_politicised_judiciary
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_secret_police
+		
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 2
+		}
+		
+		#International Memberships
+		add_modifier = { name = unga_member }
+		add_modifier = { name = unsc_permanent_member }
+		
+		#Extra prestige for winning WW2
+		add_modifier = { name = ww2_victor years = 10 is_decaying = yes }
+		
+		#President Truman
+		add_journal_entry = { type = je_term_limits }
+		set_variable = {
+			name = term_limit_var
+			value = 5
+		}
+		set_variable = ig_petty_bourgeoisie_president
+		
+		#US Senate
+		add_journal_entry = { type = je_upper_house }
+		set_variable = {
+			name = pro_government_senators_var
+			value = 49
+		}
+		set_variable = {
+			name = upper_house_majority_var
+			value = 51
+		}
+		set_variable = upper_house_filibuster_rule
+		
+		#Nuclear capability
+		add_modifier = { name = nuclear_capability }
+		set_variable = nuclear_program_started
+		
+		#Chemical capability
+		add_modifier = { name = chemical_capability }
+		set_variable = chemical_program_started
+		
+	}
+}

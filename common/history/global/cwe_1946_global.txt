@@ -1,0 +1,7 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	
+	#Mark as 1946 start date
+	set_global_variable = 1946_start_date
+
+}

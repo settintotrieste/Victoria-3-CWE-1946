@@ -1,0 +1,28 @@
+COUNTRIES = {
+
+	c:UGR = {
+		
+		ig:ig_trade_unions = { add_ruling_interest_group = yes }
+		
+		#set_tariffs_export_priority = g:grain
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		effect_starting_politics_communist_republic = yes
+		effect_starting_politics_dictatorship = yes
+		effect_starting_politics_constitutional_unitary_state = yes
+		effect_starting_politics_war_policy_pro_military = yes
+		effect_starting_politics_economic_policy_planned_economy = yes
+		effect_starting_politics_trade_policy_protectionism = yes
+		effect_starting_politics_anti_nuclear_policy = yes
+		
+		effect_starting_politics_specialisation_manufacturing = yes
+		
+		effect_starting_politics_fiat_standard = yes
+
+	}
+	
+}

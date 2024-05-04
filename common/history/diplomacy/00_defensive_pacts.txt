@@ -1,0 +1,17 @@
+﻿DIPLOMACY = {
+
+	#WW2 Allies
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:GBR
+			type = defensive_pact
+		}
+	}
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = defensive_pact
+		}
+	}
+	
+}

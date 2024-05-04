@@ -1,0 +1,465 @@
+﻿DIPLOMACY = {
+	
+	#USA
+	c:USA = {
+	
+		create_diplomatic_pact = {
+			country = c:WAU
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:SGR
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:TRE
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:ITA
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ICL
+			type = puppet
+		}
+		
+		create_diplomatic_pact = {
+			country = c:SKO
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:ROC
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:THI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PHI
+			type = semi_autonomous_colony
+		}
+		
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:DOM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PUR
+			type = semi_autonomous_colony
+		}
+		
+		create_diplomatic_pact = {
+			country = c:LSK
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:HAW
+			type = semi_autonomous_colony
+		}
+		
+		create_diplomatic_pact = {
+			country = c:MEX
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:GUA
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HON
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NIC
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ELS
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:COS
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PNM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CLM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:VNZ
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ECU
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PEU
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BOL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PRG
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:URU
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CHL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NEJ
+			type = protectorate
+		}
+		
+	}
+	
+	#USSR
+	c:SOV = {
+	
+		create_diplomatic_pact = {
+			country = c:NKO
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:PRC
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:MGL
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:NVM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ETS
+			type = protectorate
+		}
+		
+		create_diplomatic_pact = {
+			country = c:EAU
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:EGR
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ROM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = protectorate
+		}		
+		create_diplomatic_pact = {
+			country = c:CZH
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = protectorate
+		}		
+		create_diplomatic_pact = {
+			country = c:ALB
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:YUG
+			type = satellite
+		}
+		
+	}
+	
+	#United Kingdom
+	c:GBR = {
+	
+		create_diplomatic_pact = {
+			country = c:MLT
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:SIR
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:POR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:WGR
+			type = mandate
+		}
+	
+		create_diplomatic_pact = {
+			country = c:ISR
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:KUW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:UAE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BHR
+			type = puppet
+		}		
+		create_diplomatic_pact = {
+			country = c:QAT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:IRQ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:JOR
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:ETH
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SOM
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:RHO
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:ZAN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ESW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LES
+			type = puppet
+		}
+	
+		create_diplomatic_pact = {
+			country = c:HND
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:SRL
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:MLD
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:MLY
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:BRU
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:VAN
+			type = semi_autonomous_colony
+		}
+		create_diplomatic_pact = {
+			country = c:TON
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:CAN
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:AST
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NZL
+			type = dominion
+		}
+		
+	}
+	
+	#France
+	c:FRA = {
+	
+		create_diplomatic_pact = {
+			country = c:RHE
+			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = protectorate
+		}	
+		create_diplomatic_pact = {
+			country = c:BEL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = protectorate
+		}
+	
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:SYR
+			type = mandate
+		}
+
+		create_diplomatic_pact = {
+			country = c:LAO
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SVM
+			type = puppet
+		}
+		
+	}
+	
+	#Finland
+	c:FIN = {
+		create_diplomatic_pact = {
+			country = c:ALA
+			type = special_administrative_region
+		}
+	}
+	
+	#Spain
+	c:SPA = {
+		create_diplomatic_pact = {
+			country = c:TGZ
+			type = special_administrative_region
+		}
+	}
+	
+	#Denmark
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:FAR
+			type = special_administrative_region
+		}
+	}
+	
+	#India
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:NEP
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:BHU
+			type = satellite
+		}
+		create_diplomatic_pact = {
+			country = c:SIK
+			type = satellite
+		}	
+		create_diplomatic_pact = {
+			country = c:AFG
+			type = protectorate
+		}
+	}
+	
+}
