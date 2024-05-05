@@ -8,12 +8,6 @@
 			target_country = c:ROC
 			
 			war = yes
-			
-			add_war_goal = {
-				holder = c:ROC
-				type = annex_country
-				target_country = c:PRC
-			}
 		}
 	}
 	
@@ -30,11 +24,11 @@
 	}
 	
 	#First Indochina War
-	c:SVM = {
+	c:NVM = {
 		create_diplomatic_play = {
 			name = indochina_war
 			type = dp_annex_war_historical
-			target_country = c:NVM
+			target_country = c:SVM
 		
 			war = yes
 			
@@ -95,12 +89,6 @@
 			target_country = c:UGR
 			
 			war = yes
-			
-			add_war_goal = {
-				holder = c:UGR
-				type = annex_country
-				target_country = c:GRE
-			}
 		}
 	}
 	

@@ -1,0 +1,52 @@
+﻿COUNTRIES = {
+
+	c:SOV = {
+	
+		#Ruling Party
+		ig:ig_trade_unions = { add_ruling_interest_group = yes }
+		ig:ig_security_forces = { add_ruling_interest_group = yes }
+		ig:ig_armed_forces = { add_ruling_interest_group = yes }
+		
+		ig:ig_industrialists = { set_ig_suppression = yes }
+		ig:ig_landowners = { set_ig_suppression = yes }
+		ig:ig_petty_bourgeoisie = { set_ig_suppression = yes }
+		
+		effect_starting_technology_tier_2_5_tech = yes
+		effect_starting_technology_nuclear_tech = yes
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:liquor
+		
+		# Laws
+		effect_starting_politics_communist_republic = yes
+		effect_starting_politics_dictatorship = yes
+		effect_starting_politics_constitutional_unitary_state = yes
+		effect_starting_politics_war_policy_pro_military = yes
+		effect_starting_politics_economic_policy_planned_economy = yes
+		effect_starting_politics_trade_policy_autarky = yes
+		effect_starting_politics_pro_nuclear_policy = yes
+		
+		effect_starting_politics_specialisation_manufacturing = yes
+		
+		effect_starting_politics_fiat_standard = yes
+		
+		#International Memberships
+		add_modifier = { name = unga_member }
+		add_modifier = { name = unsc_permanent_member }
+		add_modifier = { name = COMECON_leader }
+		
+		#Nuclear capability
+		set_variable = nuclear_program_started
+		add_journal_entry = { type = je_develop_nuclear_weapons }
+		set_variable = { name = nuclear_program_started_AI_timer months = 60 }
+		
+		#Extra prestige for winning WW2
+		add_modifier = { name = ww2_victor months = 120 is_decaying = yes }
+		
+		#Completed JEs
+		set_variable = communism_1_done
+		
+	}
+	
+}

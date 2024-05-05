@@ -3,5 +3,12 @@ GLOBAL = {
 	
 	#Mark as 1946 start date
 	set_global_variable = 1946_start_date
+	
+	#Clean up NATO
+	every_country = {
+		limit = { OR = { has_modifier = nato_member has_modifier = nato_leader } }
+		remove_modifier = nato_member
+		remove_modifier = nato_leader
+	}
 
 }

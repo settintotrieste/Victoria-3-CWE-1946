@@ -58,7 +58,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
-			type = semi_autonomous_colony
+			type = puppet
 		}
 		
 		create_diplomatic_pact = {
@@ -224,7 +224,7 @@
 		}		
 		create_diplomatic_pact = {
 			country = c:ALB
-			type = protectorate
+			type = satellite
 		}
 		create_diplomatic_pact = {
 			country = c:YUG
@@ -400,7 +400,7 @@
 
 		create_diplomatic_pact = {
 			country = c:SYR
-			type = mandate
+			type = satellite
 		}
 
 		create_diplomatic_pact = {
