@@ -10,5 +10,21 @@ GLOBAL = {
 		remove_modifier = nato_member
 		remove_modifier = nato_leader
 	}
+	
+	#Olympics
+	set_global_variable = {
+		name = olympic_games_year
+		value = 1948
+	}
+	c:FIN = {
+		remove_variable = olympic_games_host_country
+	}
+	c:GBR = {
+		set_variable = { 
+			name = olympic_games_host_country
+			years = 6
+		}
+		add_journal_entry = { type = je_olympic_games }
+	}
 
 }
