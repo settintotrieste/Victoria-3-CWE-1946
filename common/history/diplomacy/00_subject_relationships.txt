@@ -418,6 +418,14 @@
 		
 	}
 	
+	#Netherlands
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:EID
+			type = puppet
+		}
+	}
+	
 	#Finland
 	c:FIN = {
 		create_diplomatic_pact = {

@@ -26,5 +26,10 @@ GLOBAL = {
 		}
 		add_journal_entry = { type = je_olympic_games }
 	}
+	
+	#Tweaks
+	c:NET = {
+		change_infamy = -100
+	}
 
 }

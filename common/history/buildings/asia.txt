@@ -63,6 +63,7 @@ BUILDINGS = {
 	c:NVM = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
 			effect_starting_buildings_1 = yes
+			effect_starting_extra_military = yes
 		}
 	}
 	
@@ -112,6 +113,13 @@ BUILDINGS = {
 	}
 	
 	c:IDO = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+			effect_starting_extra_military = yes
+		}
+	}
+	
+	c:EID = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
 			effect_starting_buildings_1 = yes
 		}
@@ -166,6 +174,7 @@ BUILDINGS = {
 	c:ROC = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
 			effect_starting_buildings_2 = yes
+			effect_starting_small_extra_military = yes
 		}
 	}
 	

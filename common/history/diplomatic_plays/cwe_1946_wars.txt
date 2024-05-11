@@ -85,7 +85,7 @@
 	c:GRE = {
 		create_diplomatic_play = {
 			name = greek_civil_war
-			type = dp_revolution
+			type = dp_historical_revolution
 			target_country = c:UGR
 			
 			war = yes
