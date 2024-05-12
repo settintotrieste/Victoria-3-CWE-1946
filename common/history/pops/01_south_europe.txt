@@ -894,12 +894,14 @@
 				size = 122343
 			}
 			create_pop = {
-				culture = cypriot
-				size = 14774
-			}
-			create_pop = {
 				culture = turkish
 				size = 55748
+			}
+		}
+		region_state:GBR = {
+			create_pop = {
+				culture = cypriot
+				size = 14774
 			}
 		}
 	}

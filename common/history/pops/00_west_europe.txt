@@ -90,6 +90,12 @@
 				size = 11278
 			}
 		}
+		region_state:SOV = {
+			create_pop = {
+				culture = russian
+				size = 5000
+			}
+		}
 	}
 	s:STATE_WESTERN_NORWAY = {
 		region_state:NOR = {
@@ -168,6 +174,8 @@
 				culture = finnish
 				size = 2388768
 			}
+		}
+		region_state:SOV = {
 			create_pop = {
 				culture = russian
 				size = 24422
@@ -1037,7 +1045,13 @@
 			}
 			create_pop = {
 				culture = german
-				size = 1227797
+				size = 1000000
+			}
+		}
+		region_state:RHE = {
+			create_pop = {
+				culture = german
+				size = 227797
 			}
 		}
 	}
