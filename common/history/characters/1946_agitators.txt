@@ -1,0 +1,23 @@
+CHARACTERS = {
+
+	### North America ###
+	c:HND = {
+		create_character = {
+			first_name = "Mohandas_Karamchand_Gandhi_first_name"
+			last_name = "Mohandas_Karamchand_Gandhi_last_name"
+			is_agitator = yes historical = yes
+			birth_date = 1869.10.2
+			interest_group = ig_rural_folk
+			ideology = ideology_agitator_pro_human_rights
+			culture = cu:indian
+			religion = rel:hindu
+			traits = {
+				brave
+				charismatic
+				honorable
+			}
+			on_created = { set_variable = Mohandas_Karamchand_Gandhi }
+		}
+    }
+	
+}
