@@ -1,0 +1,77 @@
+CHARACTERS = {
+
+	### North America ###
+	c:NFL = {
+		create_character = {
+			first_name = "Gordon_Macdonald_first_name"
+			last_name = "Gordon_Macdonald_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1888.5.27
+			interest_group = ig_landowners
+			ideology = ideology_democratic
+            culture = cu:british
+			religion = rel:protestant
+			traits = {
+				innovative
+				direct
+				pious
+			}
+		}
+    }
+	
+	### South America ###
+	c:VNZ = {
+		create_character = {
+			first_name = "Romulo_Betancourt_first_name"
+			last_name = "Romulo_Betancourt_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1908.2.22
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_democratic
+			#culture = cu:venezuelan
+			traits = {
+				ambitious
+				innovative
+				honorable
+			}
+		}
+	}
+	
+	### Africa ###
+	c:SAF = {
+		create_character = {
+			first_name = "Jan_Christian_Smuts_first_name"
+			last_name = "Jan_Christian_Smuts_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1870.5.24
+			interest_group = ig_industrialists
+			ideology = ideology_autocratic
+			culture = cu:boer
+			traits = {
+				erudite
+				bigoted
+				charismatic
+			}
+		}
+	}
+	
+	### Asia ###
+	c:SWK = {
+		create_character = {
+			first_name = "Vyner_Brooke_first_name"
+			last_name = "Vyner_Brooke_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1874.9.26
+			interest_group = ig_landowners
+			ideology = ideology_democratic
+            culture = cu:british
+			religion = rel:protestant
+			traits = {
+				reserved
+				expensive_tastes
+				innovative
+			}
+		}
+    }
+	
+}

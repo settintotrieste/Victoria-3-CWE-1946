@@ -98,6 +98,10 @@ DIPLOMACY = {
 			country = c:BRU
 			type = currency_union
 		}
+		create_diplomatic_pact = {
+			country = c:SWK
+			type = currency_union
+		}
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
@@ -120,6 +124,13 @@ DIPLOMACY = {
 	c:GBR = {
 		create_diplomatic_pact = {
 			country = c:TON
+			type = currency_union
+		}
+	}
+	
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:NFL
 			type = currency_union
 		}
 	}

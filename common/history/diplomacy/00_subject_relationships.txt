@@ -344,6 +344,10 @@
 			country = c:BRU
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:SWK
+			type = puppet
+		}
 
 		create_diplomatic_pact = {
 			country = c:VAN
@@ -357,6 +361,10 @@
 		create_diplomatic_pact = {
 			country = c:CAN
 			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NFL
+			type = semi_autonomous_colony
 		}
 		create_diplomatic_pact = {
 			country = c:AST

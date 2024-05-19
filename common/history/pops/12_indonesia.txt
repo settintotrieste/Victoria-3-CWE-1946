@@ -49,6 +49,12 @@
 				size = 23715
 			}
 		}
+		region_state:SWK = {
+			create_pop = {
+				culture = sarawakian
+				size = 222210
+			}
+		}
 		region_state:GBR = {
 			create_pop = {
 				culture = sabahan
@@ -62,10 +68,6 @@
 				culture = sabahan
 				religion = sunni
 				size = 36446
-			}
-			create_pop = {
-				culture = sarawakian
-				size = 222210
 			}
 			create_pop = {
 				culture = bornean

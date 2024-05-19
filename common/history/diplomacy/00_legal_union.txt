@@ -55,6 +55,10 @@ DIPLOMACY = {
 			country = c:BRU
 			type = legal_union
 		}
+		create_diplomatic_pact = {
+			country = c:SWK
+			type = legal_union
+		}
 	}
 	
 	c:GBR = {
@@ -73,6 +77,13 @@ DIPLOMACY = {
 	c:GBR = {
 		create_diplomatic_pact = {
 			country = c:NZL
+			type = legal_union
+		}
+	}
+	
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:NFL
 			type = legal_union
 		}
 	}
