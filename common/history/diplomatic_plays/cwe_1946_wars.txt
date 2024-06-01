@@ -19,6 +19,12 @@
 			target_country = c:IDO
 		
 			war = yes
+			
+			add_war_goal = {
+				holder = c:IDO
+				type = annex_country
+				target_country = c:EID
+			}
 		
 		}
 	}
