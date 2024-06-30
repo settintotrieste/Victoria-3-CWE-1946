@@ -48,10 +48,10 @@
 			country = c:JAP
 			type = mandate
 		}
-		create_diplomatic_pact = {
-			country = c:ROC
-			type = protectorate
-		}
+		#create_diplomatic_pact = {
+		#	country = c:ROC
+		#	type = protectorate
+		#}
 		create_diplomatic_pact = {
 			country = c:THI
 			type = protectorate
