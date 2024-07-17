@@ -1,0 +1,14 @@
+[h1]Notice:[/h1]
+[b]Errors & Content:[/b] This sub mod is still in a very early stage so bugs, missing content and the occasional crash can be expected. Game balance will also not be good.
+
+[h1]About the mod[/h1]
+The Cold War Era mod (CWE) brings Victoria 3 into the Cold War era and beyond. This mod contains a slew of special features such as nuclear war systems, dynamic international organisations and decolonisation chains to accurately simulate the Cold War and Post-Cold War world. Politics and the economy have also been completely overhauled to allow the game engine to represent the modern era.
+
+This sub mod for the Cold War Era Mod (1950) allows for a 1946 start date to be played in place of the 1950 start date.
+
+[h1]Instructions:[/h1]
+To enable the 1946 start date to be played, please create a separate playset from your existing playset with the Cold War Era Mod (1950). This new playset should only contain the Cold War Era Mod (1950) and Cold War Era Mod (1946) mods. Please then arrange this newly created playset containing the two mods in following load order:
+
+1. Cold War Era Mod (1950)
+
+2. Cold War Era Mod (1946)
