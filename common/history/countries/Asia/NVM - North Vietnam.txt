@@ -1,42 +1,34 @@
 COUNTRIES = {
 
-	c:PRC = {
+	c:NVM = {
 	
 		#Ruling Party
 		ig:ig_trade_unions = { add_ruling_interest_group = yes }
+		ig:ig_security_forces = { add_ruling_interest_group = yes }
+		ig:ig_armed_forces = { add_ruling_interest_group = yes }
 		
 		ig:ig_industrialists = { set_ig_suppression = yes }
 		ig:ig_landowners = { set_ig_suppression = yes }
-		ig:ig_corporations = { set_ig_suppression = yes }
-		ig:ig_intelligentsia = { set_ig_suppression = yes }
+		ig:ig_petty_bourgeoisie = { set_ig_suppression = yes }
 		
 		effect_starting_technology_tier_1_tech = yes
 
 		set_tax_level = medium
 		
-		add_taxed_goods = g:liquor
-		
-		set_variable = one_china_policy
-		
-		set_institution_investment_level = {
-			institution = institution_health_system
-			level = 4
-		}
+		add_taxed_goods = g:wine
 		
 		# Laws
 		effect_starting_politics_communist_republic = yes
 		effect_starting_politics_dictatorship = yes
 		effect_starting_politics_constitutional_unitary_state = yes
-		effect_starting_politics_war_policy_pro_military = yes
-		effect_starting_politics_economic_policy_semi_planned_economy = yes
-		effect_starting_politics_trade_policy_autarky = yes
-		effect_starting_politics_pro_nuclear_policy = yes
+		effect_starting_politics_war_policy_jingoism = yes
+		effect_starting_politics_economic_policy_planned_economy = yes
+		effect_starting_politics_trade_policy_protectionism = yes
+		effect_starting_politics_anti_nuclear_policy = yes
 		
 		effect_starting_politics_specialisation_natural_resource = yes
 		
 		effect_starting_politics_fiat_standard = yes
-		
-		activate_law = law_type:law_protectionism
 		
 		activate_law = law_type:law_full_private_land_ownership
 		
