@@ -88,6 +88,10 @@
 			country = c:NVM
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:PRC
+			type = protectorate
+		}
 		
 		create_diplomatic_pact = {
 			country = c:EAU
@@ -318,14 +322,6 @@
 		create_diplomatic_pact = {
 			country = c:EID
 			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:BEL
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:LUX
-			type = protectorate
 		}
 	}
 	
