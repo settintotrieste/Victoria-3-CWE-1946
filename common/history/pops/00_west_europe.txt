@@ -1059,7 +1059,7 @@
 		region_state:RHE = {
 			create_pop = {
 				culture = german
-				size = 4984760
+				size = 3000000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1069,6 +1069,12 @@
 				culture = german
 				religion = protestant
 				size = 1132450
+			}
+		}
+		region_state:WGR = {
+			create_pop = {
+				culture = german
+				size = 1984760
 			}
 		}
 	}

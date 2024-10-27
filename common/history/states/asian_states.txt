@@ -312,11 +312,7 @@ STATES = {
 	s:STATE_SOUTH_BENGAL = {
 		create_state = {
 			country = c:HND
-			owned_provinces = { x40F5CE xCA47BA x55F631 x92DA2C xA605E3 x1E0385 x6F1170 x474C54 xDFA414 x025A94 x93E9F4 x3C68C9 xC81678 xB06FC2 x4123FE }
-		}
-		create_state = {
-			country = c:HND
-			owned_provinces = { xD0B0DF x89D769 x802A5E x0A2277 }
+			owned_provinces = { x40F5CE xCA47BA x55F631 x92DA2C xA605E3 x1E0385 x6F1170 x474C54 xDFA414 x025A94 x93E9F4 x3C68C9 xC81678 xB06FC2 x4123FE xD0B0DF x89D769 x802A5E x0A2277 }
 		}
 		
 		add_claim = c:BNG add_homeland = cu:bengali
