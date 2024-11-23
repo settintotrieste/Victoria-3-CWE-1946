@@ -17,6 +17,7 @@ CHARACTERS = {
 				honorable
 			}
 			on_created = { set_variable = Mohandas_Karamchand_Gandhi }
+			dna = dna_mahatma_gandhi
 		}
     }
 	
