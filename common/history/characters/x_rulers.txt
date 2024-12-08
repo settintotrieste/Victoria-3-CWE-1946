@@ -19,6 +19,26 @@ CHARACTERS = {
 		}
     }
 	
+	### Caribbean ###
+	c:HAI = {
+		create_character = {
+			first_name = "Elie_Lescot_first_name"
+			last_name = "Elie_Lescot_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1883.12.9
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_autocratic
+			culture = cu:haitian
+			religion = rel:catholic
+			traits = {
+				cruel
+				wrathful
+				grifter
+			}
+			on_created = { set_variable = Elie_Lescot }
+		}
+	}
+	
 	### South America ###
 	c:VNZ = {
 		create_character = {
