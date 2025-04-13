@@ -1,0 +1,59 @@
+BUILDINGS = {
+	
+	c:PRC = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+			effect_starting_buildings_1 = yes
+			effect_starting_extra_military = yes
+		}
+		s:STATE_BEIJING = {
+			region_state:PRC = {
+				create_building = {
+					building = "building_forbidden_city"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+	}
+	
+	c:NVM = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+			effect_starting_extra_military = yes
+		}
+	}
+	
+	c:SWK = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+		}
+	}
+	
+	c:IDO = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+			effect_starting_extra_military = yes
+		}
+	}
+	
+	c:EID = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+		}
+	}
+	
+	c:ROC = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_2 = yes
+			effect_starting_small_extra_military = yes
+		}
+	}
+	
+	c:ETS = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+		}
+	}
+	
+}

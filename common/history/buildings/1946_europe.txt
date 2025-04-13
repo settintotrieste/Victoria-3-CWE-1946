@@ -1,0 +1,61 @@
+BUILDINGS = {
+
+	### Western Bloc ###
+	
+	c:WGR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_3 = yes
+		}
+	}
+	
+	c:SGR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_3 = yes
+		}
+	}
+	
+	c:RHE = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_3 = yes
+		}
+	}
+	
+	c:SAR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_0 = yes
+		}
+	}
+	
+	c:IAR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+		}
+	}
+	
+	c:WAU = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_3 = yes
+		}
+	}
+	
+	c:UGR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_3 = yes
+		}
+	}
+	
+	### Eastern Bloc ###
+	
+	c:EGR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_2 = yes
+		}
+	}
+	
+	c:EAU = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_2 = yes
+		}
+	}
+	
+}

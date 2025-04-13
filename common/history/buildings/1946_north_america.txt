@@ -1,0 +1,9 @@
+﻿BUILDINGS = {
+	
+	c:NFL = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+		}
+	}
+	
+}

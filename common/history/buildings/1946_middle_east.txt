@@ -1,0 +1,10 @@
+BUILDINGS = {
+	
+	c:ISR = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			 effect_starting_buildings_3 = yes
+			 effect_starting_extra_military = yes
+		}
+	}
+	
+}
