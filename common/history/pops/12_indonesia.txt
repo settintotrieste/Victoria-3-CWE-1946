@@ -433,7 +433,7 @@
 		s:STATE_EAST_MICRONESIA = {
 			region_state:USA = {
 				create_pop = {
-					culture = micronesian
+					culture = marshallese
 					size = 15272
 				}
 				create_pop = {
@@ -443,7 +443,11 @@
 			}
 			region_state:GBR = {
 				create_pop = {
-					culture = micronesian
+					culture = kiribati
+					size = 11402
+				}
+				create_pop = {
+					culture = tuvaluan
 					size = 11402
 				}
 				create_pop = {
@@ -536,12 +540,14 @@
 					size = 19677
 				}
 				create_pop = {
-					culture = micronesian
-					size = 33353
-				}
-				create_pop = {
 					culture = french
 					size = 7959
+				}
+			}
+			region_state:NZL = {
+				create_pop = {
+					culture = cook_islander
+					size = 33353
 				}
 			}
 			region_state:CHL = {
@@ -562,15 +568,19 @@
 					size = 41927
 				}
 			}
-			region_state:USA = {
+			region_state:NZL = {
 				create_pop = {
-					culture = tongan
+					culture = samoan
 					size = 75713
+				}
+				create_pop = {
+					culture = tokelauan
+					size = 1000
 				}
 			}
 			region_state:USA = {
 				create_pop = {
-					culture = tongan
+					culture = samoan
 					size = 18176
 				}
 				create_pop = {
