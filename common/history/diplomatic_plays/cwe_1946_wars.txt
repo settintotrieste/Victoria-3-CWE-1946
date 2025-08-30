@@ -12,20 +12,14 @@
 	}
 	
 	#Indonesian War of Independence
-	c:NET = {
+	c:IDO = {
 		create_diplomatic_play = {
 			name = indonesian_war
 			type = dp_annex_war_historical
-			target_country = c:IDO
+			target_country = c:EID
 		
 			war = yes
 			
-			add_war_goal = {
-				holder = c:IDO
-				type = annex_country
-				target_country = c:EID
-			}
-		
 		}
 	}
 	

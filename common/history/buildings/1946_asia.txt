@@ -32,14 +32,14 @@ BUILDINGS = {
 	
 	c:IDO = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_1 = yes
+			effect_starting_buildings_PRC_HND_1 = yes
 			effect_starting_extra_military = yes
 		}
 	}
 	
 	c:EID = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_1 = yes
+			effect_starting_buildings_PRC_HND_1 = yes
 		}
 	}
 	
@@ -52,7 +52,7 @@ BUILDINGS = {
 	
 	c:ETS = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_1 = yes
+			effect_starting_buildings_PRC_HND_1 = yes
 		}
 	}
 	

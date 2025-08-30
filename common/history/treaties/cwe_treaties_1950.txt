@@ -1,0 +1,140 @@
+TREATIES = {
+	
+	#Soviet Military Mission to China
+	create_treaty = {
+		name = treaty_name_PRC_SOV_military_assistance
+		first_country = c:SOV
+		second_country = c:PRC
+
+		is_draft = no
+		binding_period = { years = 10 }
+
+		articles_to_create = {
+			{
+				article = military_assistance
+				source_country = c:SOV
+				target_country = c:PRC
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:ammunition }
+					{ quantity = 50 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:small_arms }
+					{ quantity = 30 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:artillery }
+					{ quantity = 20 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:tanks }
+					{ quantity = 10 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:warplanes }
+					{ quantity = 5 }
+				}
+			}
+			{
+				article = treaty_port
+				source_country = c:PRC
+				target_country = c:SOV
+				inputs = {
+					{ state = s:STATE_SHENGJING.region_state:PRC }
+				}
+			}
+			{
+				article = defensive_pact
+			}
+		}
+	}
+	
+	#Soviet Military Mission to North Vietnam
+	create_treaty = {
+		name = treaty_name_NVM_SOV_military_assistance
+		first_country = c:SOV
+		second_country = c:NVM
+
+		is_draft = no
+		binding_period = { years = 10 }
+
+		articles_to_create = {
+			{
+				article = military_assistance
+				source_country = c:SOV
+				target_country = c:NVM
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:NVM
+				inputs = {
+					{ goods = g:ammunition }
+					{ quantity = 50 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:NVM
+				inputs = {
+					{ goods = g:small_arms }
+					{ quantity = 30 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:NVM
+				inputs = {
+					{ goods = g:artillery }
+					{ quantity = 20 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:NVM
+				inputs = {
+					{ goods = g:tanks }
+					{ quantity = 10 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:NVM
+				inputs = {
+					{ goods = g:warplanes }
+					{ quantity = 5 }
+				}
+			}
+		}
+	}
+	
+}
