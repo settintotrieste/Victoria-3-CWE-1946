@@ -129,7 +129,6 @@ STATES = {
 		add_claim = c:GER add_homeland = cu:german
 	}
 	s:STATE_RUHR = {
-		
 		#Bonn
 		create_state = {
 			country = c:WGR
@@ -139,7 +138,11 @@ STATES = {
 				x2101E0 xD08021 x0180E0 # IAR
 			}
 		}
-		
+		#Belgium
+		create_state = {
+			country = c:BEL
+			owned_provinces = { x486F6A }
+		}
 		add_claim = c:GER add_homeland = cu:german
 	}
 	

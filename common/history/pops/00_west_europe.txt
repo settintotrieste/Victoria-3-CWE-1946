@@ -941,6 +941,12 @@
 				size = 75526
 			}
 		}
+		region_state:BEL = {
+			create_pop = {
+				culture = german
+				size = 9000
+			}
+		}
 	}
 	s:STATE_NORTH_RHINE = {
 		region_state:WGR = {

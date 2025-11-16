@@ -204,8 +204,8 @@ STATES = {
 		}
 		
 		add_claim = c:KAS add_homeland = cu:kashmiri
-		add_claim = c:HND add_homeland = cu:indian
-		add_claim = c:PAK add_homeland = cu:pakistani
+		add_claim = c:HND #add_homeland = cu:indian
+		add_claim = c:PAK #add_homeland = cu:pakistani
 		add_claim = c:TIB add_homeland = cu:tibetan
 	}
 	s:STATE_HYDERABAD = {
