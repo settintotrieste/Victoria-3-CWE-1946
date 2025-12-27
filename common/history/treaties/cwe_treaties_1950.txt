@@ -61,6 +61,24 @@ TREATIES = {
 				}
 			}
 			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:automobiles }
+					{ quantity = 20 }
+				}
+			}
+			{
+				article = goods_transfer
+				source_country = c:SOV
+				target_country = c:PRC
+				inputs = {
+					{ goods = g:oil }
+					{ quantity = 100 }
+				}
+			}
+			{
 				article = treaty_port
 				source_country = c:PRC
 				target_country = c:SOV

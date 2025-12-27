@@ -4,43 +4,66 @@ BUILDINGS = {
 	
 	c:WGR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_3 = yes
+			effect_starting_buildings_base = yes
+		}
+		s:STATE_BADEN = {
+			region_state:WGR = {
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					reserves = 1
+					add_ownership = {
+						company = {
+							type = company_basf
+							country = c:WGR
+							levels = 1
+						}
+					}
+				}
+			}
+		}
+		s:STATE_BRANDENBURG = {
+			region_state:WGR = {
+				create_building = {
+					building = "building_german_reichstag"
+					level = 1
+				}
+			}
 		}
 	}
 	
 	c:SGR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_3 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:RHE = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_3 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:SAR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_0 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:IAR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_1 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:WAU = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_3 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:UGR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_3 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
@@ -48,13 +71,21 @@ BUILDINGS = {
 	
 	c:EGR = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_2 = yes
+			effect_starting_buildings_base = yes
 		}
 	}
 	
 	c:EAU = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_2 = yes
+			effect_starting_buildings_base = yes
+		}
+		s:STATE_AUSTRIA = {
+			region_state:EAU = {
+				create_building = {
+					building = "building_kaiserforum_4"
+					level = 1
+				}
+			}
 		}
 	}
 	
