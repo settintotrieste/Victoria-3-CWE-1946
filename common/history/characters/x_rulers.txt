@@ -19,6 +19,69 @@ CHARACTERS = {
 		}
     }
 	
+	### Europe ###
+	c:RHE = {
+		create_character = {
+			first_name = "Marie_Pierre_Koenig_first_name"
+			last_name = "Marie_Pierre_Koenig_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1898.10.10
+			interest_group = ig_armed_forces
+			ideology = ideology_democratic
+			culture = cu:french
+			traits = {
+				persistent
+				honorable
+				brave
+			}
+		}
+	}
+	c:SGR = {
+		create_character = {
+			first_name = "Wilhelm_Hoegner_first_name"
+			last_name = "Wilhelm_Hoegner_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1887.9.23
+			interest_group = ig_trade_unions
+			ideology = ideology_democratic
+			traits = {
+				persistent
+				direct
+				brave
+			}
+		}
+	}
+	c:WAU = {
+		create_character = {
+			first_name = "Leopold_Figl_first_name"
+			last_name = "Leopold_Figl_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1902.10.2
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_democratic
+			traits = {
+				tactful
+				pious
+				cautious
+			}
+		}
+	}
+	c:EAU = {
+		create_character = {
+			first_name = "Johann_Koplenig_first_name"
+			last_name = "Johann_Koplenig_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1891.5.15
+			interest_group = ig_trade_unions
+			ideology = ideology_autocratic
+			traits = {
+				persistent
+				direct
+				cautious
+			}
+		}
+	}
+	
 	### Caribbean ###
 	c:HAI = {
 		create_character = {
@@ -93,5 +156,57 @@ CHARACTERS = {
 			}
 		}
     }
+	c:ETS = {
+		create_character = {
+			first_name = "Elihan_Tore_first_name"
+			last_name = "Elihan_Tore_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1884.3.21
+			interest_group = ig_devout
+			ideology = ideology_democratic
+            culture = cu:uighur
+			religion = rel:sunni
+			traits = {
+				brave
+				persistent
+				bigoted
+			}
+		}
+    }
+	c:EID = {
+		create_character = {
+			first_name = "Tjokorda_Gde_Raka_Soekawati_first_name"
+			last_name = "Tjokorda_Gde_Raka_Soekawati_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1884.3.21
+			interest_group = ig_landowners
+			ideology = ideology_elitist
+            culture = cu:balinese
+			religion = rel:sunni
+			traits = {
+				grifter
+				tactful
+				direct
+			}
+		}
+    }
+	c:JAP = {
+		create_character = {
+			first_name = "Douglas_MacArthur_first_name"
+			last_name = "Douglas_MacArthur_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1880.1.26
+			interest_group = ig_armed_forces
+			ideology = ideology_power_hungry
+			culture = cu:anglo_american
+			religion = rel:protestant
+			traits = {
+				imposing
+				ambitious
+				innovative
+			}
+			on_created = { set_variable = Douglas_MacArthur }
+		}
+	}
 	
 }
