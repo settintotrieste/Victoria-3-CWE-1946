@@ -224,4 +224,42 @@ CHARACTERS = {
 		}
 	}
 	
+	### Middle East ###
+	c:AZB = {
+		create_character = {
+			first_name = "Jafar_Pishevari_first_name"
+			last_name = "Jafar_Pishevari_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1892.8.26
+			interest_group = ig_trade_unions
+			ideology = ideology_power_hungry
+			culture = cu:azerbaijani
+			religion = rel:shiite
+			traits = {
+				persistent
+				ambitious
+				brave
+			}
+			on_created = { set_variable = Jafar_Pishevari }
+		}
+	}
+	c:KUR = {
+		create_character = {
+			first_name = "Qazi_Muhammad_first_name"
+			last_name = "Qazi_Muhammad_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1893.5.1
+			interest_group = ig_devout
+			ideology = ideology_power_hungry
+			culture = cu:azerbaijani
+			religion = rel:sunni
+			traits = {
+				persistent
+				ambitious
+				brave
+			}
+			on_created = { set_variable = Qazi_Muhammad }
+		}
+	}
+	
 }
