@@ -146,7 +146,7 @@
 		}
 		region_state:FAR = {
 			create_pop = {
-				culture = danish
+				culture = faroese
 				size = 31655
 			}
 		}
