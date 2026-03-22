@@ -13,7 +13,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:TRE
-			type = mandate
+			type = condominium
 		}
 		create_diplomatic_pact = {
 			country = c:ITA
@@ -22,6 +22,10 @@
 		create_diplomatic_pact = {
 			country = c:ICL
 			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:FCB
+			type = condominium
 		}
 		
 		create_diplomatic_pact = {
@@ -146,6 +150,10 @@
 		create_diplomatic_pact = {
 			country = c:WGR
 			type = mandate
+		}
+		create_diplomatic_pact = {
+			country = c:FCB
+			type = condominium
 		}
 	
 		create_diplomatic_pact = {
@@ -283,6 +291,10 @@
 			country = c:SWI
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:FCB
+			type = condominium
+		}
 	
 		create_diplomatic_pact = {
 			country = c:MOR
@@ -382,6 +394,14 @@
 		create_diplomatic_pact = {
 			country = c:AFG
 			type = protectorate
+		}
+	}
+	
+	#Yugoslavia
+	c:YUG = {
+		create_diplomatic_pact = {
+			country = c:FCB
+			type = condominium
 		}
 	}
 	
