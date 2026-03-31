@@ -164,15 +164,39 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_FINLAND = {
+	s:STATE_OSTROBOTHNIA = {
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
-				size = 547990
+				size = 273995
 			}
 			create_pop = {
 				culture = finnish
-				size = 2388768
+				size = 1194384
+			}
+		}
+	}
+	s:STATE_KUOPIO = {
+		region_state:FIN = {
+			create_pop = {
+				culture = swedish
+				size = 273995
+			}
+			create_pop = {
+				culture = finnish
+				size = 1194384
+			}
+		}
+	}
+	s:STATE_UUSIMAA = {
+		region_state:FIN = {
+			create_pop = {
+				culture = swedish
+				size = 273995
+			}
+			create_pop = {
+				culture = finnish
+				size = 1194384
 			}
 		}
 		region_state:SOV = {
@@ -234,7 +258,7 @@
 			}
 		}
 	}
-	s:STATE_OSTROBOTHNIA = {
+	s:STATE_OULU = {
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
@@ -251,20 +275,8 @@
 		}
 		region_state:SOV = {
 			create_pop = {
-				culture = finnish
-				size = 740
-			}
-			create_pop = {
 				culture = russian
-				size = 5949
-			}
-			create_pop = {
-				culture = ugrian
-				size = 4640
-			}
-			create_pop = {
-				culture = sami
-				size = 3582
+				size = 24422
 			}
 		}
 	}
@@ -365,6 +377,12 @@
 				size = 661908
 			}
 		}
+		region_state:SIR = {
+			create_pop = {
+				culture = irish
+				size = 274000
+			}
+		}
 	}
 	s:STATE_MUNSTER = {
 		region_state:SIR = {
@@ -386,7 +404,7 @@
 		region_state:SIR = {
 			create_pop = {
 				culture = irish
-				size = 582400
+				size = 308400
 			}
 		}
 	}
@@ -685,7 +703,7 @@
 	s:STATE_WALLONIA = {
 		region_state:LUX = {
 			create_pop = {
-				culture = wallonian
+				culture = luxembourger
 				size = 248017
 			}
 			create_pop = {
@@ -858,17 +876,19 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:POL = {
+		region_state:EGR = {
 			create_pop = {
 				culture = german
 				size = 69944
 			}
+		}
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 1089520
 			}
 			create_pop = {
-				culture = kashubian
+				culture = german
 				size = 660249
 			}
 			create_pop = {
@@ -889,7 +909,12 @@
 		region_state:SWI = {
 			create_pop = {
 				culture = swiss
-				size = 2042372
+				size = 1706093
+			}
+			create_pop = {
+				culture = swiss
+				religion = catholic
+				size = 1279569
 			}
 		}
 	}
@@ -897,7 +922,12 @@
 		region_state:SWI = {
 			create_pop = {
 				culture = swiss
-				size = 2421576
+				size = 988189
+			}
+			create_pop = {
+				culture = swiss
+				religion = catholic
+				size = 741141
 			}
 		}
 	}
