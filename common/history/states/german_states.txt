@@ -109,6 +109,12 @@ STATES = {
 				x904020 # SAR
 			}
 		}
+		create_state = {
+			country = c:WGR
+			owned_provinces = { 
+				xC1B963
+			}
+		}
 		
 		add_claim = c:GER add_homeland = cu:german
 	}

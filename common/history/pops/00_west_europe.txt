@@ -966,6 +966,8 @@
 				culture = german
 				size = 948716
 			}
+		}
+		region_state:WGR = {
 			create_pop = {
 				culture = german
 				size = 75526

@@ -364,8 +364,6 @@
 				religion = hindu
 				size = 1840370
 			}
-		}
-		region_state:HND = {
 			create_pop = {
 				culture = sindi
 				size = 21865
