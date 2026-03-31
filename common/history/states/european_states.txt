@@ -711,7 +711,7 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:AUS
+			country = c:EGR
 			owned_provinces = { 
 				x30A020
 			}
