@@ -1143,7 +1143,7 @@
 				size = 14217
 			}
 			create_pop = {
-				culture = inuit # TODO
+				culture = athabaskan
 				size = 33863
 			}
 		}
@@ -1744,11 +1744,11 @@
 	s:STATE_BERMUDA = {
 		region_state:GBR = {
 			create_pop = {
-				culture = english
+				culture = british
 				size = 14848
 			}
 			create_pop = {
-				culture = afro_caribbean
+				culture = bermudian
 				size = 12352
 			}
 		}
