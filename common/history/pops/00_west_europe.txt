@@ -986,7 +986,7 @@
 			}
 			create_pop = {
 				culture = german
-				size = 6760811
+				size = 3760811
 			}
 			create_pop = {
 				culture = wallonian
@@ -997,6 +997,12 @@
 				size = 519015
 			}
 		}
+		region_state:BEL = {
+			create_pop = {
+				culture = german
+				size = 9000
+			}
+		}
 	}
 	s:STATE_RUHR = {
 		region_state:WGR = {
@@ -1005,8 +1011,6 @@
 				religion = catholic
 				size = 702629
 			}
-		}
-		region_state:IAR = {
 			create_pop = {
 				culture = german
 				size = 152157

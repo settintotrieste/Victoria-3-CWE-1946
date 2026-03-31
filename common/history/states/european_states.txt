@@ -711,7 +711,7 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:EGR
+			country = c:EAU
 			owned_provinces = { 
 				x30A020
 			}
@@ -740,7 +740,7 @@ STATES = {
 		create_state = {
 			country = c:EAU
 			owned_provinces = {
-				xA9793B x20CF50 x0CBB8F x62F70E x7F2E4E x84C7C3 x316141 xA40093 x1180A0 x30A020
+				xA9793B x20CF50 x0CBB8F x62F70E x7F2E4E x84C7C3 x316141 xA40093 x1180A0
 			}
 		} 
 		create_state = {
