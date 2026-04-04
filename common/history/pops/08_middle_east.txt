@@ -673,7 +673,7 @@
 		}
 	}
 	s:STATE_FARS = {
-		region_state:PER = {
+		region_state:GBR = {
 			create_pop = {
 				culture = persian
 				size = 1118938
@@ -701,7 +701,7 @@
 		}
 	}
 	s:STATE_LARISTAN = {
-		region_state:PER = {
+		region_state:GBR = {
 			create_pop = {
 				culture = persian
 				size = 401046
@@ -728,16 +728,26 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size = 1581055
+				size = 1481055
 			}
 			create_pop = {
 				culture = turkmen
-				size = 227733
+				size = 217733
+			}
+		}
+		region_state:SOV = {
+			create_pop = {
+				culture = persian
+				size = 100000
+			}
+			create_pop = {
+				culture = turkmen
+				size = 10000
 			}
 		}
 	}
 	s:STATE_KHUZESTAN = {
-		region_state:PER = {
+		region_state:GBR = {
 			create_pop = {
 				culture = persian
 				size = 689156
@@ -765,7 +775,7 @@
 		}
 	}
 	s:STATE_MAZANDARAN = {
-		region_state:PER = {
+		region_state:SOV = {
 			create_pop = {
 				culture = persian
 				size = 1614056
@@ -813,7 +823,7 @@
 		}
 	}
 	s:STATE_URMIA = {
-		region_state:PER = {
+		region_state:KUR = {
 			create_pop = {
 				culture = azerbaijani
 				size = 337448
@@ -867,7 +877,7 @@
 		}
 	}
 	s:STATE_TABRIZ = {
-		region_state:PER = {
+		region_state:AZB = {
 			create_pop = {
 				culture = azerbaijani
 				size = 337448
@@ -921,7 +931,7 @@
 		}
 	}
 	s:STATE_LURISTAN = {
-		region_state:PER = {
+		region_state:GBR = {
 			create_pop = {
 				culture = persian
 				size = 655302
@@ -950,7 +960,7 @@
 		}
 	}
 	s:STATE_PERSIAN_KURDISTAN = {
-		region_state:PER = {
+		region_state:GBR = {
 			create_pop = {
 				culture = persian
 				size = 655302

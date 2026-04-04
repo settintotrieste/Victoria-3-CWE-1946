@@ -103,7 +103,7 @@ STATES = {
 		create_state = {
 			country = c:RHE
 			owned_provinces = { 
-				xD080A0 x5D7A68 x11C021 x707505 x90C020 
+				xD080A0 x5D7A68 x11C021 x707505 
 				
 				xD080A0 # IAR
 				x904020 # SAR

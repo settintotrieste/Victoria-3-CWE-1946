@@ -148,10 +148,6 @@
 			type = personal_union
 		}
 		create_diplomatic_pact = {
-			country = c:POR
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:WGR
 			type = mandate
 		}
