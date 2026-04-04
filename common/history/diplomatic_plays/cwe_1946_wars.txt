@@ -57,27 +57,25 @@
 		}
 	}
 	
-	#Azerbaijan Crisis
-	c:PER = {
+	#Iran Crisis
+	c:AZB = {
 		create_diplomatic_play = {
 			name = azberbaijan_war
-			type = dp_annex_war_historical
-			target_country = c:AZB
+			type = dp_humiliation
+			target_country = c:PER
 		
 			war = yes
 			
-		}
-	}
-	
-	#Mahabad Crisis
-	c:PER = {
-		create_diplomatic_play = {
-			name = mahabad_war
-			type = dp_annex_war_historical
-			target_country = c:KUR
-		
-			war = yes
-			
+			add_war_goal = {
+				holder = c:PER
+				type = annex_country
+				target_country = c:AZB
+			}
+			add_war_goal = {
+				holder = c:PER
+				type = annex_country
+				target_country = c:KUR
+			}
 		}
 	}
 	

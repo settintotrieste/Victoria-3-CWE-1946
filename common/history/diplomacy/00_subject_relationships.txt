@@ -134,6 +134,15 @@
 			type = satellite
 		}
 		
+		create_diplomatic_pact = {
+			country = c:AZB
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:KUR
+			type = protectorate
+		}
+		
 	}
 	
 	#United Kingdom
