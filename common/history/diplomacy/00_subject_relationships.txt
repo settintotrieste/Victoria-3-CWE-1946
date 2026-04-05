@@ -70,15 +70,6 @@
 			type = protectorate
 		}
 		
-		create_diplomatic_pact = {
-			country = c:PER
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:NEJ
-			type = protectorate
-		}
-		
 	}
 	
 	#USSR
