@@ -124,6 +124,26 @@
 			country = c:YUG
 			type = satellite
 		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = dominate_politics
+		}
+		create_diplomatic_pact = {
+			country = c:ROM
+			type = dominate_politics
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = dominate_politics
+		}		
+		create_diplomatic_pact = {
+			country = c:CZH
+			type = dominate_politics
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = dominate_politics
+		}
 		
 		create_diplomatic_pact = {
 			country = c:AZB
