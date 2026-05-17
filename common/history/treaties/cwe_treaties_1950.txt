@@ -11,11 +11,6 @@ TREATIES = {
 
 		articles_to_create = {
 			{
-				article = military_assistance
-				source_country = c:SOV
-				target_country = c:PRC
-			}
-			{
 				article = goods_transfer
 				source_country = c:SOV
 				target_country = c:PRC
