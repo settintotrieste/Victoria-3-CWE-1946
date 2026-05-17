@@ -1073,7 +1073,16 @@
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 14177310
+				size =  7088655
+			}
+		}
+	}
+	s:STATE_KYOTO = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size =  7088655
 			}
 		}
 	}
