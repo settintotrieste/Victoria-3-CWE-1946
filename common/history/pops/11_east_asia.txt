@@ -1031,20 +1031,6 @@
 				size = 2419010
 			}
 		}
-		region_state:SOV = {
-			create_pop = {
-				culture = ainu
-				size = 398
-			}
-			create_pop = {
-				culture = japanese
-				size = 112
-			}
-			create_pop = {
-				culture = russian
-				size = 320
-			}
-		}
 	}
 	s:STATE_TOHOKU = {
 		region_state:JAP = {
@@ -1064,12 +1050,21 @@
 			}
 		}
 	}
-	s:STATE_CHUBU = {
+	s:STATE_TOKAI = {
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 13321103
+				size = 6660551
+			}
+		}
+	}
+	s:STATE_HOKUSHINETSU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 6660551
 			}
 		}
 	}
