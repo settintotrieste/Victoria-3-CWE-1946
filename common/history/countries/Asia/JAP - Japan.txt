@@ -30,6 +30,20 @@ COUNTRIES = {
 		
 		activate_law = law_type:law_peasant_levies
 		
+		#Post War Constitution
+		active_law:lawgroup_governance_principles ?= {
+			add_amendment = {
+				type = amendment_symbolic_monarchy
+				sponsor = PREV.ig:ig_petty_bourgeoisie 
+			}
+		}
+		active_law:lawgroup_governance_principles ?= {
+			add_amendment = {
+				type = amendment_no_nobility
+				sponsor = PREV.ig:ig_trade_unions
+			}
+		}
+		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
@@ -38,6 +52,30 @@ COUNTRIES = {
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 2
+		}
+		
+		set_country_type = unrecognized
+		
+		#Companies
+		add_company = company_type:company_mitsui
+		company:company_mitsui = {
+			set_company_establishment_date = 1876.1.1
+			set_company_state_region = s:STATE_KANSAI
+		}
+		add_company = company_type:company_mitsubishi
+		company:company_mitsubishi = {
+			set_company_establishment_date = 1870.1.1
+			set_company_state_region = s:STATE_CHUGOKU
+		}
+		add_company = company_type:company_toyota
+		company:company_toyota = {
+			set_company_establishment_date = 1937.8.28
+			set_company_state_region = s:STATE_KANTO
+		}
+		add_company = company_type:company_National
+		company:company_National = {
+			set_company_establishment_date = 1918.3.7
+			set_company_state_region = s:STATE_KANTO
 		}
 		
 		set_country_type = unrecognized
