@@ -223,6 +223,27 @@ CHARACTERS = {
 			on_created = { set_variable = Douglas_MacArthur }
 		}
 	}
+	c:HND = {
+		create_character = {
+			first_name = "Archibald_Wavell_first_name"
+			last_name = "Archibald_Wavell_last_name"
+			birth_date = 1883.5.5
+			ruler = yes historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_elitist
+			culture = cu:english
+			religion = rel:protestant
+			traits = { healthy_character
+				direct
+				tactful
+				experienced_diplomat
+			}
+			on_created = { 
+				set_variable = Archibald_Wavell
+				set_character_as_viceroy = yes
+			}
+		}
+	}
 	
 	### Middle East ###
 	c:AZB = {
