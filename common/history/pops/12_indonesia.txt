@@ -84,7 +84,7 @@
 			}
 		}
 		s:STATE_WEST_BORNEO = {
-			region_state:IDO = {
+			region_state:DYK = {
 				create_pop = {
 					culture = bornean
 					size = 1142143
@@ -105,7 +105,7 @@
 			}
 		}
 		s:STATE_EAST_BORNEO = {
-			region_state:IDO = {
+			region_state:DYK = {
 				create_pop = {
 					culture = bornean
 					size = 1725511
@@ -167,7 +167,7 @@
 			region_state:IDO = {
 				create_pop = {
 					culture = javan
-					size = 6585309
+					size = 6385309
 				}
 				create_pop = {
 					culture = yue
@@ -176,6 +176,12 @@
 				create_pop = {
 					culture = dutch
 					size = 221913
+				}
+			}
+			region_state:YOG = {
+				create_pop = {
+					culture = javan
+					size = 200000
 				}
 			}
 		}
@@ -474,6 +480,12 @@
 				create_pop = {
 					culture = polynesian
 					size = 1604
+				}
+			}
+			region_state:EID = {
+				create_pop = {
+					culture = micronesian
+					size = 12500
 				}
 			}
 		}

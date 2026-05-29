@@ -458,4 +458,16 @@
 		}
 	}
 	
+	#Indonesia
+	c:IDO = {
+		create_diplomatic_pact = {
+			country = c:DYK
+			type = special_administrative_region
+		}
+		create_diplomatic_pact = {
+			country = c:YOG
+			type = special_administrative_region
+		}
+	}
+	
 }
