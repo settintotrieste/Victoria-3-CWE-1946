@@ -1,0 +1,70 @@
+MILITARY_FORMATIONS = {
+
+	c:ROC ?= {
+		random_scope_state = {
+			limit = { 
+				state_region = s:STATE_NANJING
+			}
+			region = { save_scope_as = region_army_HQ } state_region = { save_scope_as = state_region_army_HQ } 
+			owner = {
+				create_military_formation = {
+					type = army
+					hq_region = scope:region_army_HQ
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_infantry_1
+						count = 35
+					}
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_artillery_1
+						count = 5
+					}
+				}
+			}
+		}
+		random_scope_state = {
+			limit = { 
+				state_region = s:STATE_NANJING
+			}
+			region = { save_scope_as = region_army_HQ } state_region = { save_scope_as = state_region_army_HQ } 
+			owner = {
+				create_military_formation = {
+					type = army
+					hq_region = scope:region_army_HQ
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_infantry_1
+						count = 35
+					}
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_infantry_1
+						count = 35
+					}
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_artillery_1
+						count = 5
+					}
+				}
+			}
+		}
+		random_scope_state = {
+			limit = { 
+				state_region = s:STATE_NANJING
+			}
+			region = { save_scope_as = region_army_HQ } state_region = { save_scope_as = state_region_army_HQ } 
+			owner = {
+				create_military_formation = {
+					type = army
+					hq_region = scope:region_army_HQ
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_infantry_1
+						count = 35
+					}
+					combat_unit = { state_region = scope:state_region_army_HQ
+						type = unit_type:combat_unit_type_artillery_1
+						count = 5
+					}
+				}
+			}
+		}
+	}
+
+}

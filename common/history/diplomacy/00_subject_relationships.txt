@@ -76,6 +76,10 @@
 	c:SOV = {
 	
 		create_diplomatic_pact = {
+			country = c:MCK
+			type = mandate
+		}
+		create_diplomatic_pact = {
 			country = c:NKO
 			type = mandate
 		}

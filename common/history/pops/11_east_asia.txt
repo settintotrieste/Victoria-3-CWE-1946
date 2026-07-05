@@ -241,7 +241,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:PRC = {
+		region_state:MCK = {
 			create_pop = {
 				culture = han
 				size = 6719534
@@ -299,7 +299,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:PRC = {
+		region_state:MCK = {
 			create_pop = {
 				culture = manchu
 				size = 10521854
@@ -319,7 +319,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:PRC = {
+		region_state:MCK = {
 			create_pop = {
 				culture = manchu
 				size = 4874564

@@ -244,6 +244,27 @@ CHARACTERS = {
 			}
 		}
 	}
+	c:MCK = {
+		create_character = {
+			first_name = "Rodion_Malinovsky_first_name"
+			last_name = "Rodion_Malinovsky_last_name"
+			ruler = yes historical = yes
+			is_general = yes
+			birth_date = 1898.11.23
+			interest_group = ig_armed_forces
+			ideology = ideology_autocratic
+			culture = cu:russian
+			religion = rel:atheist
+			traits = {
+				brave
+				imposing
+				ruthless
+			}
+			on_created = {
+				set_variable = Rodion_Malinovsky
+			}
+		}
+	}
 	
 	### Middle East ###
 	c:AZB = {

@@ -16,6 +16,12 @@ BUILDINGS = {
 			}
 		}
 	}
+	c:MCK = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+			#effect_starting_buildings_1 = yes
+		}
+	}
 	
 	c:NVM = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
@@ -46,7 +52,6 @@ BUILDINGS = {
 	c:ROC = {
 		every_scope_state = { limit = { state_has_sufficient_population = yes }
 			effect_starting_buildings_PRC_HND_1 = yes
-			effect_starting_small_extra_military = yes
 		}
 	}
 	
