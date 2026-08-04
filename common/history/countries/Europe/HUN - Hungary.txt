@@ -32,7 +32,7 @@ COUNTRIES = {
 		effect_starting_politics_fiat_standard = yes
 		
 		#Regency
-		add_modifier = { name = modifier_regency }
+		#add_modifier = { name = modifier_regency }
 		
 		#International Memberships
 		add_modifier = { name = unga_member }
