@@ -110,7 +110,7 @@ CHARACTERS = {
 				cruel
 				demagogue
 			}
-			on_created = { add_character_role = character_role_regent }
+			on_created = { set_character_as_regent = yes }
 		}
 	}
 	

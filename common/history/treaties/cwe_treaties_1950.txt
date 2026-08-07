@@ -150,4 +150,48 @@ TREATIES = {
 		}
 	}
 	
+	# Macau Treaty Port
+	create_treaty = {
+		name = treaty_name_luso_chinese_agreement
+		first_country = c:POR
+		second_country = c:ROC
+
+		is_draft = no
+		entered_into_force_on = 1554.1.1 # Establishment of Portugese Macau
+		binding_period = { years = 445 } # 99 year binding period after start of game
+
+		articles_to_create = {
+			{
+				article = treaty_port
+				source_country = c:ROC
+				target_country = c:POR
+				inputs = {
+					{ state = s:STATE_GUANGDONG.region_state:ROC }
+				}
+			}
+		}
+	}
+	
+	# Hong Kong Treaty Port
+	create_treaty = {
+		name = treaty_name_sino_chinese_agreement
+		first_country = c:GBR
+		second_country = c:ROC
+
+		is_draft = no
+		entered_into_force_on = 1842.7.1 # Establishment of British Hong Kong
+		binding_period = { years = 155 } # 99 year binding period after start of game
+
+		articles_to_create = {
+			{
+				article = treaty_port_leased
+				source_country = c:ROC
+				target_country = c:GBR
+				inputs = {
+					{ state = s:STATE_SHAOZHOU.region_state:ROC }
+				}
+			}
+		}
+	}
+	
 }

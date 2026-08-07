@@ -446,7 +446,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIK
-			type = satellite
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:AFG
