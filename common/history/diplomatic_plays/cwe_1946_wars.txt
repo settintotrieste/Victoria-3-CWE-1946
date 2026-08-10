@@ -8,6 +8,27 @@
 			target_country = c:ROC
 			
 			war = yes
+			
+			add_war_goal = {
+				holder = c:PRC
+				type = annex_country
+				target_country = c:XIB
+			}
+			add_war_goal = {
+				holder = c:PRC
+				type = annex_country
+				target_country = c:XIN
+			}
+			add_war_goal = {
+				holder = c:PRC
+				type = annex_country
+				target_country = c:SIH
+			}
+			add_war_goal = {
+				holder = c:PRC
+				type = annex_country
+				target_country = c:SHN
+			}
 		}
 	}
 	
@@ -36,7 +57,7 @@
 	}
 	
 	#Ili Rebellion
-	c:ROC = {
+	c:XIN = {
 		create_diplomatic_play = {
 			name = east_turkestan_war
 			type = dp_annex_war_historical
@@ -44,16 +65,11 @@
 		
 			war = yes
 			
-		}
-	}
-	c:PRC = {
-		create_diplomatic_play = {
-			name = east_turkestan_war
-			type = dp_annex_war_historical
-			target_country = c:ETS
-		
-			war = yes
-			
+			add_war_goal = {
+				holder = c:ETS
+				type = annex_country
+				target_country = c:XIN
+			}
 		}
 	}
 	

@@ -16,7 +16,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:ammunition }
-					{ quantity = 50 }
+					{ quantity = 1000 }
 				}
 			}
 			{
@@ -25,7 +25,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:small_arms }
-					{ quantity = 30 }
+					{ quantity = 500 }
 				}
 			}
 			{
@@ -34,7 +34,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:artillery }
-					{ quantity = 20 }
+					{ quantity = 200 }
 				}
 			}
 			{
@@ -43,7 +43,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:tanks }
-					{ quantity = 10 }
+					{ quantity = 100 }
 				}
 			}
 			{
@@ -52,7 +52,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:warplanes }
-					{ quantity = 5 }
+					{ quantity = 50 }
 				}
 			}
 			{
@@ -61,7 +61,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:automobiles }
-					{ quantity = 20 }
+					{ quantity = 200 }
 				}
 			}
 			{
@@ -70,7 +70,7 @@ TREATIES = {
 				target_country = c:PRC
 				inputs = {
 					{ goods = g:oil }
-					{ quantity = 100 }
+					{ quantity = 1000 }
 				}
 			}
 			{

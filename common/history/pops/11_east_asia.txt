@@ -1,14 +1,14 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		region_state:ETS = {
+		region_state:XIN = {
 			create_pop = {
 				culture = uighur
-				size = 3071006
+				size = 1535503
 			}
 			create_pop = {
-				culture = kirgiz
+				culture = kyrgyz
 				religion = animist
-				size = 448177
+				size = 224088
 			}
 			create_pop = {
 				culture = mongol
@@ -23,9 +23,20 @@
 				size = 1181338
 			}
 		}
+		region_state:ETS = {
+			create_pop = {
+				culture = uighur
+				size = 1535503
+			}
+			create_pop = {
+				culture = kyrgyz
+				religion = animist
+				size = 224088
+			}
+		}
 	}
 	s:STATE_TIANSHAN = {
-		region_state:ETS = {
+		region_state:XIN = {
 			create_pop = {
 				culture = uighur
 				size = 2525851
@@ -68,7 +79,7 @@
 		}
 	}
 	s:STATE_SICHUAN = {
-		region_state:ROC = {
+		region_state:SIH = {
 			create_pop = {
 				culture = han
 				size = 21576952
@@ -158,7 +169,7 @@
 		}
 	}
 	s:STATE_ALXA = {
-		region_state:ROC = {
+		region_state:XIB = {
 			create_pop = {
 				culture = mongol
 				size = 48861
@@ -351,7 +362,7 @@
 		}
 	}
 	s:STATE_NINGXIA = {
-		region_state:ROC = {
+		region_state:SHN = {
 			create_pop = {
 				culture = han
 				size = 7322851
@@ -363,7 +374,7 @@
 		}
 	}
 	s:STATE_GANSU = {
-		region_state:ROC = {
+		region_state:XIB = {
 			create_pop = {
 				culture = han
 				size = 2819621
@@ -413,7 +424,7 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		region_state:ROC = {
+		region_state:XIB = {
 			create_pop = {
 				culture = tibetan
 				size = 417048

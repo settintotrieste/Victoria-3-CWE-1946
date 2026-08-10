@@ -282,6 +282,74 @@ CHARACTERS = {
 			}
 		}
 	}
+	c:XIB = {
+		create_character = {
+			first_name = "Bufang_Ma_first_name"
+			last_name = "Bufang_Ma_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1903.2.25
+			interest_group = ig_landowners
+			ideology = ideology_autocratic
+			culture = cu:han
+			religion = rel:sunni
+			traits = {
+				ambitious
+				imposing
+				ruthless
+			}
+		}
+	}
+	c:SHN = {
+		create_character = {
+			first_name = "Yan_Xishan_first_name"
+			last_name = "Yan_Xishan_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1883.10.8
+			interest_group = ig_landowners
+			ideology = ideology_elitist
+			culture = cu:han
+			religion = rel:confucian
+			traits = {
+				cautious
+				tactful
+				honorable
+			}
+		}
+	}
+	c:SIH = {
+		create_character = {
+			first_name = "Liu_Wenhui_first_name"
+			last_name = "Liu_Wenhui_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1895.10.15
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_autocratic
+			culture = cu:han
+			religion = rel:confucian
+			traits = {
+				ambitious
+				charismatic
+				reckless
+			}
+		}
+	}
+	c:XIN = {
+		create_character = {
+			first_name = "Zhang_Zhizhong_first_name"
+			last_name = "Zhang_Zhizhong_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1890.10.27
+			interest_group = ig_intelligentsia
+			ideology = ideology_democratic
+			culture = cu:han
+			religion = rel:atheist
+			traits = {
+				experienced_diplomat
+				tactful
+				reserved
+			}
+		}
+	}
 	
 	### Middle East ###
 	c:AZB = {

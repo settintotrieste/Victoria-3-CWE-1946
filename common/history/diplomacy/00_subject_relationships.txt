@@ -474,4 +474,24 @@
 		}
 	}
 	
+	#Republic of China
+	c:ROC = {
+		create_diplomatic_pact = {
+			country = c:XIN
+			type = warlord_state
+		}
+		create_diplomatic_pact = {
+			country = c:XIB
+			type = warlord_state
+		}
+		create_diplomatic_pact = {
+			country = c:SIH
+			type = warlord_state
+		}
+		create_diplomatic_pact = {
+			country = c:SHN
+			type = warlord_state
+		}
+	}
+	
 }

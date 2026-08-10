@@ -28,5 +28,8 @@ GLOBAL = {
 	c:NET = {
 		change_infamy = -100
 	}
+	c:PRC = {
+		change_infamy = -100
+	}
 
 }
