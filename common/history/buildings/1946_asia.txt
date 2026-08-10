@@ -61,4 +61,31 @@ BUILDINGS = {
 		}
 	}
 	
+	c:XIN = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+		}
+	}
+	c:XIB = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+		}
+	}
+	c:SIH = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+		}
+	}
+	c:SHN = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+		}
+	}
+	
+	c:TAI = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_HND_1 = yes
+		}
+	}
+	
 }

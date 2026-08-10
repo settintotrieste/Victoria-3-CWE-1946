@@ -648,7 +648,7 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:ROC = {
+		region_state:TAI = {
 			create_pop = {
 				culture = min
 				size = 4550500

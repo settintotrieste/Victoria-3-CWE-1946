@@ -492,6 +492,10 @@
 			country = c:SHN
 			type = warlord_state
 		}
+		create_diplomatic_pact = {
+			country = c:TAI
+			type = special_administrative_region
+		}
 	}
 	
 }
