@@ -252,7 +252,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:MCK = {
+		region_state:PRC = {
 			create_pop = {
 				culture = han
 				size = 6719534
