@@ -97,20 +97,48 @@ CHARACTERS = {
 		}
 	}
 	c:HUN = {
+		random_scope_character = {
+			limit = { has_variable = Matyas_Rakosi }
+			set_character_as_regent = yes
+		}
+	}
+	c:BUL = {
 		create_character = {
-			first_name = "Matyas_Rakosi_first_name"
-			last_name = "Matyas_Rakosi_last_name"
-			ruler = yes ig_leader = yes historical = yes
-			birth_date = 1892.3.9
+			first_name = "Todor_Pavlov_first_name"
+			last_name = "Todor_Pavlov_last_name"
+			role = politician historical = yes
+			birth_date = 1890.2.14
 			interest_group = ig_trade_unions
-			ideology = ideology_power_hungry
-			religion = rel:atheist
+			ideology = ideology_autocratic
+			culture = cu:bulgarian
+			religion = rel:orthodox
 			traits = {
+				charismatic
 				tactful
-				cruel
-				demagogue
+				reserved
 			}
-			on_created = { set_character_as_regent = yes }
+			on_created = { 
+				set_character_as_regent = yes
+			}
+		}
+		create_character = {
+			first_name = "simeon_ii_first_name"
+			last_name = "simeon_ii_last_name"
+			birth_date = 1937.6.16
+			role = character_role_monarch historical = yes
+			interest_group = ig_landowners
+			ideology = ideology_elitist
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			traits = { healthy_character
+				charismatic
+				honorable
+				romantic
+			}
+			on_created = {
+				set_variable = simeon_ii
+				set_character_as_monarch = yes
+			}
 		}
 	}
 	
