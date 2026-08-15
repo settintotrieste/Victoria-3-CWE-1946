@@ -255,6 +255,7 @@ CHARACTERS = {
 			first_name = "Douglas_MacArthur_first_name"
 			last_name = "Douglas_MacArthur_last_name"
 			ruler = yes ig_leader = yes historical = yes
+			is_general = yes
 			birth_date = 1880.1.26
 			interest_group = ig_armed_forces
 			ideology = ideology_power_hungry
@@ -434,6 +435,27 @@ CHARACTERS = {
 				brave
 			}
 			on_created = { set_variable = Qazi_Muhammad }
+		}
+	}
+	c:ISR = {
+		create_character = {
+			first_name = "Alan_Cunningham_first_name"
+			last_name = "Alan_Cunningham_last_name"
+			ruler = yes historical = yes
+			is_general = yes
+			birth_date = 1887.12.1
+			interest_group = ig_armed_forces
+			ideology = ideology_elitist
+			culture = cu:british
+			religion = rel:protestant
+			traits = {
+				reserved
+				tactful
+				honorable
+			}
+			on_created = {
+				set_variable = Alan_Cunningham
+			}
 		}
 	}
 	
