@@ -348,8 +348,6 @@
 				culture = north_caucasian
 				size = 1266
 			}
-		}
-		region_state:ISR = {
 			create_pop = {
 				culture = jordanian
 				religion = sunni
@@ -360,8 +358,6 @@
 				religion = shiite
 				size = 60000
 			}
-		}
-		region_state:ISR = {
 			create_pop = {
 				culture = palestinian
 				religion = sunni
