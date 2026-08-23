@@ -182,19 +182,9 @@ CHARACTERS = {
 	
 	### Africa ###
 	c:SAF = {
-		create_character = {
-			first_name = "Jan_Christian_Smuts_first_name"
-			last_name = "Jan_Christian_Smuts_last_name"
-			ruler = yes ig_leader = yes historical = yes
-			birth_date = 1870.5.24
-			interest_group = ig_industrialists
-			ideology = ideology_autocratic
-			culture = cu:boer
-			traits = {
-				erudite
-				bigoted
-				charismatic
-			}
+		random_scope_character = {
+			limit = { has_variable = Jan_Christian_Smuts }
+			set_character_as_ruler = yes
 		}
 	}
 	
