@@ -96,6 +96,26 @@ CHARACTERS = {
 			}
 		}
 	}
+	c:CZH = {
+		create_character = {
+			first_name = "Edvard_Benes_first_name"
+			last_name = "Edvard_Benes_last_name"
+			role = character_role_head_of_state historical = yes
+			birth_date = 1884.5.28
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_democratic
+			culture = cu:czech
+			religion = rel:catholic
+			traits = {
+				experienced_diplomat
+				tactful
+				honorable
+			}
+			on_created = {
+				set_variable = Edvard_Benes
+			}
+		}
+	}
 	c:HUN = {
 		random_scope_character = {
 			limit = { has_variable = Matyas_Rakosi }
@@ -387,6 +407,12 @@ CHARACTERS = {
 			on_created = {
 				set_variable = Chen_Yi
 			}
+		}
+	}
+	c:SVM = {
+		random_scope_character = {
+			limit = { has_variable = Tran_Van_Huu }
+			set_character_as_ruler = yes
 		}
 	}
 	

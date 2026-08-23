@@ -17,7 +17,7 @@ COUNTRIES = {
 		set_capital = STATE_BAVARIA
 		
 		# Laws
-		effect_starting_politics_parliamentary_republic = yes
+		effect_starting_politics_presidential_republic = yes
 		effect_starting_politics_dictatorship = yes
 		effect_starting_politics_constitutional_federal_state = yes
 		effect_starting_politics_war_policy_pacifism = yes
