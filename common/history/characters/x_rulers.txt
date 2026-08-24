@@ -278,6 +278,10 @@ CHARACTERS = {
 			}
 			on_created = { set_variable = Douglas_MacArthur }
 		}
+		random_scope_character = {
+			limit = { has_variable = shigeru_yoshida }
+			set_character_as_head_of_government = yes
+		}
 	}
 	c:HND = {
 		create_character = {
