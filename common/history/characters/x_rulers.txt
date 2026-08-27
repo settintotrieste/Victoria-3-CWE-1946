@@ -224,6 +224,7 @@ CHARACTERS = {
 				expensive_tastes
 				innovative
 			}
+			on_created = { set_character_as_monarch = yes }
 		}
     }
 	c:ETS = {
