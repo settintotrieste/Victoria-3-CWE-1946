@@ -419,6 +419,10 @@ CHARACTERS = {
 			limit = { has_variable = Tran_Van_Huu }
 			set_character_as_ruler = yes
 		}
+		random_scope_character = {
+			limit = { has_variable = Bao_Long }
+			disinherit_character = yes
+		}
 	}
 	
 	### Middle East ###
