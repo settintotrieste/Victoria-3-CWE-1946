@@ -8,27 +8,34 @@
 			target_country = c:ROC
 			
 			war = yes
+		}
+		create_diplomatic_play = {
+			name = chinese_civil_war
+			type = dp_revolution
+			target_country = c:XIB
 			
-			add_war_goal = {
-				holder = c:PRC
-				type = annex_country
-				target_country = c:XIB
-			}
-			add_war_goal = {
-				holder = c:PRC
-				type = annex_country
-				target_country = c:XIN
-			}
-			add_war_goal = {
-				holder = c:PRC
-				type = annex_country
-				target_country = c:SIH
-			}
-			add_war_goal = {
-				holder = c:PRC
-				type = annex_country
-				target_country = c:SHN
-			}
+			war = yes
+		}
+		create_diplomatic_play = {
+			name = chinese_civil_war
+			type = dp_revolution
+			target_country = c:XIN
+			
+			war = yes
+		}
+		create_diplomatic_play = {
+			name = chinese_civil_war
+			type = dp_revolution
+			target_country = c:SIH
+			
+			war = yes
+		}
+		create_diplomatic_play = {
+			name = chinese_civil_war
+			type = dp_revolution
+			target_country = c:SHN
+			
+			war = yes
 		}
 	}
 	
