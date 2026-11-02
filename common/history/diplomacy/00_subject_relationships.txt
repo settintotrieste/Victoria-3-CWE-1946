@@ -253,6 +253,10 @@
 			country = c:LES
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:BOT
+			type = semi_autonomous_colony
+		}
 	
 		create_diplomatic_pact = {
 			country = c:HND
