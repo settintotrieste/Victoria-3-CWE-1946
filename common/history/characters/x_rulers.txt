@@ -165,7 +165,7 @@ CHARACTERS = {
 		create_character = {
 			first_name = "Luis_Carrero_Blanco_first_name"
 			last_name = "Luis_Carrero_Blanco_last_name"
-			heir = yes historical = yes
+			favorite = yes historical = yes
 			is_admiral = yes
 			commander_rank = commander_rank_5
 			birth_date = 1904.3.4
@@ -331,7 +331,7 @@ CHARACTERS = {
 		create_character = {
 			first_name = "Douglas_MacArthur_first_name"
 			last_name = "Douglas_MacArthur_last_name"
-			ruler = yes ig_leader = yes historical = yes
+			ruler = yes historical = yes
 			is_general = yes
 			birth_date = 1880.1.26
 			interest_group = ig_armed_forces
@@ -343,7 +343,10 @@ CHARACTERS = {
 				ambitious
 				innovative
 			}
-			on_created = { set_variable = Douglas_MacArthur }
+			on_created = { 
+				set_variable = Douglas_MacArthur
+				set_character_as_governor = yes
+			}
 		}
 		random_scope_character = {
 			limit = { has_variable = shigeru_yoshida }
